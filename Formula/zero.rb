@@ -1,8 +1,8 @@
 class Zero < Formula
   desc "Aexis Zero scaffolding CLI"
   homepage "https://www.npmjs.com/package/@aex.is/zero"
-  url "https://registry.npmjs.org/@aex.is/zero/-/zero-0.1.8.tgz"
-  sha256 "b9aad836f117e5f281d9f5324e5e49d85ae9d164527fe70d8a5bd441d9aaa99d"
+  url "https://registry.npmjs.org/@aex.is/zero/-/zero-0.1.9.tgz"
+  sha256 "60ab7263bad7a4827bac8f14f88cd78fdde3b62ed973b70cfab4570f37f1b2b5"
   license "UNLICENSED"
 
   depends_on "node"
@@ -14,10 +14,9 @@ class Zero < Formula
 
   def caveats
     <<~EOS
-      Bun is required at runtime.
-      Install it with:
+      Choose any package manager at runtime: npm, pnpm, yarn, or bun.
+      npm ships with Node. For Bun:
         brew install oven-sh/bun/bun
-      or see https://bun.sh
     EOS
   end
 
