@@ -1,8 +1,8 @@
 class Zero < Formula
   desc "Aexis Zero scaffolding CLI"
   homepage "https://www.npmjs.com/package/@aex.is/zero"
-  url "https://registry.npmjs.org/@aex.is/zero/-/zero-0.1.10.tgz"
-  sha256 "3e16ad50eb38585780c50d9ba6a5a38f24ec27a74975220d36022fd6d2b11b63"
+  url "https://registry.npmjs.org/@aex.is/zero/-/zero-0.1.11.tgz"
+  sha256 "fe7123d5a0c433bdf50c4064aa16da481879f11235c83c3a5aebe3e821087600"
   license "UNLICENSED"
 
   depends_on "node"
