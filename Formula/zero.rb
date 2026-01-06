@@ -6,11 +6,19 @@ class Zero < Formula
   license "UNLICENSED"
 
   depends_on "node"
-  depends_on "bun"
 
   def install
     system "npm", "install", *std_npm_args
     bin.install_symlink libexec/"bin/zero"
+  end
+
+  def caveats
+    <<~EOS
+      Bun is required at runtime.
+      Install it with:
+        brew install oven-sh/bun/bun
+      or see https://bun.sh
+    EOS
   end
 
   test do

@@ -7,3 +7,11 @@ Homebrew tap for the Aexis Zero CLI.
 ```sh
 brew install aexis-gh/homebrew-zero/zero
 ```
+
+## Bun
+
+Bun is required at runtime. Install with:
+
+```sh
+brew install oven-sh/bun/bun
+```
